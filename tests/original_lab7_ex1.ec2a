@@ -1,0 +1,11 @@
+test1:
+  run: "python runner.py lab12_ex1"
+  stdin: "12\n-5"
+  stdout: "Welcome to my Calculator\nInput 1st integer: Input 2nd integer: The sum is 7\nThe difference is 17\nThe product is -60\nThe quotient is -2.4\nThe modulo is 2"
+  exit: 0
+
+test2:
+  run: "python runner.py lab12_ex1"
+  stdin: "5\n0"
+  stdout: "Welcome to my Calculator\nInput 1st integer: Input 2nd integer: The sum is 5\nThe difference is 5\nThe product is 0\nDivision by zero! Answer is undefined...\nDivision by zero! Answer is undefined..."
+  exit: 0
