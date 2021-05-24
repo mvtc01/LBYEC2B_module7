@@ -34,8 +34,9 @@ int main()
 		cout << "The remainder is " << myCalculator.modulo(x, y) << '\n';
 	}
 	catch (const char *e)
+	{
 		cout << e << " Answer is undefined..." << endl;
-	
+	}
 	/********* End code here *************/
 
 	return 0;
