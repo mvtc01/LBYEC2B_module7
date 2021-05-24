@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	SpecialCalculator myCalculator; //change the class name to CalculatorWithMod when you finish your modifications
+	CalculatorWithMod myCalculator; //change the class name to CalculatorWithMod when you finish your modifications
 	int x, y;
 
 	cout << "Input 1st integer: ";
@@ -28,7 +28,14 @@ int main()
 	}
 
 	/****** Add your code here **********/
-
+	try
+	{
+		int remainder = myCalculator.modulo(x, y);
+		cout << "The remainder is " << myCalculator.modulo(x, y) << '\n';
+	}
+	catch (const char *e)
+		cout << e << " Answer is undefined..." << endl;
+	
 	/********* End code here *************/
 
 	return 0;
