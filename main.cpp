@@ -27,17 +27,15 @@ int main()
 		cout << e << " Answer is undefined..." << endl;
 	}
 
-	/****** Add your code here **********/
 	try
 	{
 		int remainder = myCalculator.modulo(x, y);
-		cout << "The remainder is " << myCalculator.modulo(x, y) << '\n';
+		cout << "The remainder is " << remainder << '\n';
 	}
 	catch (const char *e)
 	{
 		cout << e << " Answer is undefined..." << endl;
 	}
-	/********* End code here *************/
 
 	return 0;
 }
