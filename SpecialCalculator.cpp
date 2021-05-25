@@ -1,5 +1,5 @@
 //#include "SpecialCalculator.h"
-#include "Calculator.cpp"
+#include "SpecialCalculator.cpp"
 #include <iostream>
 
 int CalculatorWithMod::modulo(int a, int b)
