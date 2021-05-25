@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include "SpecialCalculator.h"
-#include "SpecialCalculator.cpp"
+// #include "SpecialCalculator.cpp"
 
 
 using namespace std;
