@@ -1,4 +1,7 @@
+#include "Calculator.h"
+#include "Calculator.cpp"
 #include "SpecialCalculator.h"
+#include "SpecialCalculator.cpp"
 #include <iostream>
 
 using namespace std;
@@ -22,20 +25,22 @@ int main()
 		float quotient = myCalculator.division(x, y);
 		cout << "The quotient is " << quotient << '\n';
 	}
-	catch (const char *e)
+	catch (const char* e)
 	{
 		cout << e << " Answer is undefined..." << endl;
 	}
+
 
 	try
 	{
 		int remainder = myCalculator.modulo(x, y);
 		cout << "The remainder is " << remainder << '\n';
 	}
-	catch (const char *e)
+	catch (const char* e)
 	{
-		cout << e << " Answer is undefined..." << endl;
+			cout << e << " Answer is undefined..." << endl;
 	}
+
 
 	return 0;
 }
