@@ -1,4 +1,4 @@
-#include "Calculator.h"
+#include "SpecialCalculator.h"
 #include <iostream>
 
 Calculator::Calculator()
