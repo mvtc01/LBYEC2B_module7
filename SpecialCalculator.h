@@ -1,14 +1,11 @@
-#include "Calculator.h"
 #ifndef __SPECIALCALCULATOR_H__
 #define __SPECIALCALCULATOR_H__
-#include "Calculator.cpp"
-
+#include "Calculator.h"
 
 class CalculatorWithMod: public Calculator{
 public:
     int modulo(int, int);
 };
 
-#include "SpecialCalculator.cpp"
 #endif
 
