@@ -1,6 +1,6 @@
 #ifndef __SPECIALCALCULATOR_H__
 #define __SPECIALCALCULATOR_H__
-#include "Calculator.h"
+#include "Calculator.cpp"
 
 class CalculatorWithMod: public Calculator{
 public:
