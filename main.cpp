@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "SpecialCalculator.h"
+#include "SpecialCalculator.cpp"
 
 
 
